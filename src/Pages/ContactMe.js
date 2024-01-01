@@ -5,6 +5,11 @@ import { toast } from "react-toastify";
 
 const ContactMe = () => {
   const form = useRef();
+  const serviceID = process.env.REACT_APP_SERVICE_ID;
+  const templateID = process.env.REACT_APP_TEMPLATE_ID;
+  const publicAPI = process.env.REACT_APP_PUBLIC_KEY;
+
+  console.log({serviceID, templateID, publicAPI});
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -14,8 +19,6 @@ const ContactMe = () => {
     const message = formData.get("message");
     const email = formData.get("user_email");
 
-    console.log({email})
-
     const templateParams = {
       email,
       from_name,
@@ -23,12 +26,7 @@ const ContactMe = () => {
     };
 
     emailjs
-      .send(
-        "service_ley9eqh",
-        "template_r4fqngw",
-        templateParams,
-        "HH6o3QgiERDMKWlTB"
-      )
+      .send(serviceID, templateID, templateParams, publicAPI)
       .then(
         function (response) {
           toast.success("Thanks for your message");
