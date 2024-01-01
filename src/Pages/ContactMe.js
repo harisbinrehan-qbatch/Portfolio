@@ -127,7 +127,11 @@ const ContactMe = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                <a href="https://wa.me/923104106129" target="_blank">
+                <a
+                  href="https://wa.me/923104106129"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   +923104106129
                 </a>
               </figure>
@@ -150,6 +154,7 @@ const ContactMe = () => {
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=harisbinrehan@gmail.com"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   harisbinrehan@gmail.com
                 </a>
