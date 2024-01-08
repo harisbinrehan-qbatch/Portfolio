@@ -1,6 +1,6 @@
 import React from "react";
 import bannerPhoto from "../Assests/Images/bannerPhoto.png";
-import Typed from "react-typed";
+import Typed from "react-typed"; 
 
 const Banner = () => {
   const handleDownloadCV = () => {
