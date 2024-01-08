@@ -34,7 +34,7 @@ const AboutMe = () => {
               />
             </div>
             <div className="w-xs md:max-w-4xl">
-              <h1 className="text-4xl font-bold">Why Hire Me ?</h1>
+              <h1 className="text-4xl font-bold">Why You Hire Me ?</h1>
               <p className="py-6 md:pr-8">
                 As a MERN Stack Developer, I offer a distinctive combination of
                 technical expertise, creative problem-solving, and a fervent
