@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div style={{ overflow: "hidden" }} id="aboutMe" className="my-12">
         <h3
           style={{
-            marginTop: "300px",
+            marginTop: "250px",
             // Media query for laptops and larger screens (remove margin):
             "@media (min-width: 768px)": {
               marginTop: "0", // Set margin to 0 for wider screens
