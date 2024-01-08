@@ -45,8 +45,8 @@ const Banner = () => {
               delivering seamless and scalable solutions. My commitment to
               staying updated with the latest technologies ensures that I can
               bring innovation and excellence to each development endeavor.
-              Let's collaborate to turn your ideas into powerful and engaging
-              digital experiences.
+              Let's collaborate to transform your ideas into powerful and
+              engaging digital experiences.
             </p>
             <div className="flex gap-8">
               <button onClick={handleDownloadCV} className="btn btn-accent">
