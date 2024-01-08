@@ -23,3 +23,6 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
+
+
+import aboutMeImage from '../Assests/Images/burhanSecond.png'; I want to use this image as logo
