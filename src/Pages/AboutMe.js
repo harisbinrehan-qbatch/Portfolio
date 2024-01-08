@@ -5,9 +5,19 @@ const AboutMe = () => {
 
     return (
       <div style={{ overflow: "hidden" }} id="aboutMe" className="my-12">
-        <h3 className="text-md underline underline-offset-1 text-center my-8 text-accent">
+        <h3
+          style={{
+            marginTop: "300px",
+            // Media query for laptops and larger screens (remove margin):
+            "@media (min-width: 768px)": {
+              marginTop: "0", // Set margin to 0 for wider screens
+            },
+          }}
+          className="text-md underline underline-offset-1 text-center my-8 text-accent"
+        >
           About Me
         </h3>
+
         <div data-aos="zoom-out-left" className="hero">
           <div className="hero-content flex-col lg:flex-row gap-6 md:gap-20">
             <div>
