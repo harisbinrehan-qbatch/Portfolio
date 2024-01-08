@@ -14,7 +14,12 @@ const AboutMe = () => {
               <img
                 src={aboutMeImage}
                 className="w-md md:max-w-sm rounded-lg"
-                style={{marginTop: '20px'}}
+                style={{
+                  marginTop: "20px",
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "50%",
+                }}
                 alt="Haris Bin Rehan"
               />
             </div>

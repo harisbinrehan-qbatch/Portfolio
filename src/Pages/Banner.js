@@ -15,6 +15,12 @@ const Banner = () => {
           <img
             src={bannerPhoto}
             className="w-sm md:max-w-md rounded-lg shadow-2xl"
+            style={{
+              marginTop: "20px",
+              height: "300px",
+              width: "300px",
+              borderRadius: "50%",
+            }}
             alt=""
           />
           <div className="w-xs md:max-w-4xl">
